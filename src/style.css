@@ -17,10 +17,8 @@ body {
  left: 0px;
  top: 619px;
 */ background: url("https://files.slack.com/files-pri/T0NNB6T0R-FKNNJHG3D/fondo_colores.png");
-
-
-
 }
+
 
 .page{
   display: none;
@@ -50,7 +48,8 @@ h1 {
   font-size: 50px;
   text-align: center;
 }
-<<<<<<< HEAD
+
+HEAD
 
 
 
@@ -61,7 +60,7 @@ h1 {
   padding: 10px 0px;
   width: 200px;
   color: white;
-=======
+
  #registro, #bienvenido{
    color: #05D505;
    font-style: normal;
@@ -85,17 +84,13 @@ h1 {
   font-family: Roboto;
   font-weight:bold;
   border-radius: 10px;
->>>>>>> 44a2e3febcc6c13cb53a99569f4dfcd885bac756
+ 44a2e3febcc6c13cb53a99569f4dfcd885bac756
 
 }
 
 #register, #logIn, #profile, #poll {
   background-color: #05D505;
 
-}
-
-#  {
-  background-color:  #FF069B;
 }
 
 #guest, #agend, #modifyData {
@@ -105,19 +100,3 @@ h1 {
 #signIn, #checkIn, #forum, #mailbox{
   background-color: #08B5FF;
 }
-
-
-
-
-
-
-background-color: #08B5FF; (TONO AZUL)
-background-color: #FF069B; (TONO ROSA)
-background-color: #FF6A06; (TONO NARANJA)
-background-color: #05D505; (TONO VERDE)
-
-ROSA
-VERDE
-GRIS
-NARANJA
-AZUL
