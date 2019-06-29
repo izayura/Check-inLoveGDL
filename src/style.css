@@ -67,10 +67,6 @@ h1 {
 
 }
 
-#  {
-  background-color:  #FF069B;
-}
-
 #guest, #agend, #modifyData {
   background-color: #FF6A06;
 }
@@ -78,19 +74,3 @@ h1 {
 #signIn, #checkIn, #forum, #mailbox{
   background-color: #08B5FF;
 }
-
-
-
-
-
-
-background-color: #08B5FF; (TONO AZUL)
-background-color: #FF069B; (TONO ROSA)
-background-color: #FF6A06; (TONO NARANJA)
-background-color: #05D505; (TONO VERDE)
-
-ROSA
-VERDE
-GRIS
-NARANJA
-AZUL
