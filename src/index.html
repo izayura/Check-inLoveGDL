@@ -7,6 +7,7 @@
       <link rel="stylesheet" href="style.css" />
    </head>
    <body>
+     <!--pagina 1 -->
       <section id= "homePage" class= "page" >
          <h1> CHECK-INLOVE GDL </h1>
          <p> BIENVENIDO </p>
@@ -15,15 +16,35 @@
          <input id= "password" type= "password" placeholder="Ingresa tu contraseña"> </br>
 
          <button id = "logIn" type="button"   class= "btn">INGRESAR</button> </br>
+         <button id = "guest" type="button"   class= "btn">INVITADO </button> </br>
          <button id = "signIn" type="button"   class= "btn">REGISTRATE</button>
       </section>
 
+    <!--pagina 1.1 -->
       <section id= "logInPage" class= "page">
 
-        <input id= "name" type="text" placeholder="Nombre y Apeido"> </br>
+        <input id= "name" type="text" placeholder="Nombre y Apellido"> </br>
         <input id= "mail" type="text" placeholder="Ingresa tu correo"></br>
-        <input id= "name" type="text" placeholder="Ingresa tu contraseña"></br>
-        <input id= "name" type="text" placeholder="Confirma tu contraseña">
+        <input id= "createPassword" type="password" placeholder="Ingresa tu contraseña"></br>
+        <input id= "confirmPassword" type="password" placeholder="Confirma tu contraseña"></br>
+
+        <button id = "register" type="button"   class= "btn">ENVIAR</button>
       </section>
+
+     <!--pagina 2 -->
+      <section id= "welcomePage">
+        <label id= "userName"></label>
+        <button id = "profile" type="button"   class= "btn">MI PERFIL</button> </br>
+        <button id = "checkIn" type="button"   class= "btn">HAZ CHECK-IN</button>
+        <button id = "agend" type="button"   class= "btn">AGENDA</button>
+        <label id = "points"></label></br>
+        <container id = "mapImage"></container>
+        <button id = "poll" type="button"   class= "btn">ENCUESTAS</button>
+        <button id = "forum" type="button"   class= "btn">FORO</button>
+
+
+      </section>
+
+      <script src="main.js"></script>
    </body>
 </html>
