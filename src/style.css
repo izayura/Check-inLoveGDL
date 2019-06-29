@@ -1,102 +1,76 @@
 body {
-  background-image: url("https://i.ibb.co/4sv3DzH/fondo-checkin.jpg");
-  background-size: cover;
-  font-family: Roboto;
-  font-weight:bold;
-  text-align: center;
-  width: 100%;
-}
-
-#homePage {
- background-repeat: no-repeat;
- /*background-attachment: fixed;
-    background-size: cover;
- position: absolute;
- width: 1850px;
- height: 701px;
- left: 0px;
- top: 619px;
-*/ background: url("https://files.slack.com/files-pri/T0NNB6T0R-FKNNJHG3D/fondo_colores.png");
+ background-image: url("https://i.ibb.co/4sv3DzH/fondo-checkin.jpg");
+ background-size: cover;
+ font-family: Roboto;
+ font-weight:bold;
+ text-align: center;
+ width: 100%;
 }
 
 
 .page{
-  display: none;
+ display: none;
 }
 
 .btn{
-    color: white;
-    text-align: center;
-    display: inline-block;
-    font-size: 1em;
-    font-weight:bold;
-    margin: 10px;
-    padding: 5px 0px;
-    width: 200px;
-    cursor: pointer;
-    text-decoration: none;
-    box-shadow: 0px 3px 0px;
-    margin-bottom: 1rem;
-    font-family: Roboto;
-    border-radius: 10px;
+   color: white;
+   text-align: center;
+   display: inline-block;
+   font-size: 1em;
+   font-weight:bold;
+   margin: 10px;
+   padding: 5px 0px;
+   width: 200px;
+   cursor: pointer;
+   text-decoration: none;
+   box-shadow: 0px 3px 0px;
+   margin-bottom: 1rem;
+   font-family: Roboto;
+   border-radius: 10px;
 }
 
 h1 {
-  color: #FF069B;
+ color: #FF069B;
+ font-style: normal;
+ font-weight:bold;
+ font-size: 50px;
+ text-align: center;
+}
+#registro, #bienvenido{
+  color: #05D505;
   font-style: normal;
   font-weight:bold;
-  font-size: 50px;
+  font-size: 25px;
   text-align: center;
 }
-
-HEAD
-
-
-
 .textBox{
-  background-color: #C4C4C4;
-  border-radius: 20px;
-  margin: 20px;
-  padding: 10px 0px;
-  width: 200px;
-  color: white;
-
- #registro, #bienvenido{
-   color: #05D505;
-   font-style: normal;
-   font-weight:bold;
-   font-size: 25px;
-   text-align: center;
- }
-.textBox{
-  background-color: #C4C4C4;
-  color: white;
-  text-align: center;
-  display: inline-block;
-  font-size: 1em;
-  margin: 10px;
-  padding: 5px 0px;
-  width: 200px;
-  cursor: pointer;
-  text-decoration: none;
-  box-shadow: 0px 3px 0px;
-  margin-bottom: 1rem;
-  font-family: Roboto;
-  font-weight:bold;
-  border-radius: 10px;
- 44a2e3febcc6c13cb53a99569f4dfcd885bac756
+ background-color: #C4C4C4;
+ color: white;
+ text-align: center;
+ display: inline-block;
+ font-size: 1em;
+ margin: 10px;
+ padding: 5px 0px;
+ width: 200px;
+ cursor: pointer;
+ text-decoration: none;
+ box-shadow: 0px 3px 0px;
+ margin-bottom: 1rem;
+ font-family: Roboto;
+ font-weight:bold;
+ border-radius: 10px;
 
 }
 
 #register, #logIn, #profile, #poll {
-  background-color: #05D505;
+ background-color: #05D505;
 
 }
 
 #guest, #agend, #modifyData {
-  background-color: #FF6A06;
+ background-color: #FF6A06;
 }
 
 #signIn, #checkIn, #forum, #mailbox{
-  background-color: #08B5FF;
+ background-color: #08B5FF;
 }
