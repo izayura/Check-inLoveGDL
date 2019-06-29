@@ -13,6 +13,13 @@
 - Marìa Isela Carrillo Pèrez
 - Karla Cecilia Viera Zamora
 
+### Documentación:
+
+##### Encuestas realizadas a usuarios
+
+![Documentación1](https://i.ibb.co/L9RVWsk/IMG-20190629-WA0014.jpg)
+![Documentacion2](https://i.ibb.co/P9FQD1R/IMG-20190629-WA0015.jpg)
+
 ### ¿Cuál es la idea principal?
 Analizamos la percepcion actual de los ciudadanos de Guadalajara con relacion al Centro Historico, la cual no favorece la economia de la zona, coincidimos en que es necesario promover el comercio y turismo por medio de una campaña basada en una Webapp interactiva que proporciona una agenda de eventos vinculados a un sistema de puntos y recompensas para aumentar el interes y el indice de visitas.  
 
@@ -41,6 +48,14 @@ Es una aplicación web, (webapp) que interactuá con el usuario a través del na
 * Visualizar estadísticas de visitas.
 * Foro de sugerencias y encuestas de mejora.
 
+### Prototipo de Baja fidelidad:
+![prototipoBaja](https://i.ibb.co/BZv2Gpz/IMG-20190629-WA0016.jpg)
+
+### Prototipo de Alta fidelidad:
+https://www.figma.com/file/Ul0tiLplICSEa7z6vCGjA3Ka/Check-inLove-GDL?node-id=0%3A1
+
+
+
 ### Descripción del producto:
 Por medio de una aplicación web, (webapp) se proporcionara información relevante a los usuarios a través  de pequeñas capsulas (videos) acerca de los lugares turísticos del centro histórico de Guadalajara, como; bares, restaurantes, cines, teatros, eventos públicos y privados, museos, mercados, bazares, galerías, movimientos sociales, sitios artísticos y recorridos.
 Motivaremos la creacion de eventos y rallies, ejemplo: Sabado 06 de Julio, visita 3 museos "Museo de Cera", "Museo Regional", "Museo de Periodismo y las Artes" y al cumplir los 3 "Check-in" obtendras 500 puntos.
@@ -51,6 +66,10 @@ El sitio contara con una agenda de eventos.
 Los usuarios podrán hacer "check in" de los lugares dando clic al boton de geolocalizacion (herramienta de google que es de costo la cual el gobierno de GDL ya cuenta con ella, por lo que por el momento no podemos mostrar su funcionalidad), dicha acción también generará puntos canjeables por recompensas.
 La vinculacion de gobierno con los distintos comercios, organismos e instituciones (publicas o privadas), se hara por medio de un intercambio de recompensas por publicidad en nuestra webapp (incrementar popularidad de su sitio y visitas), las recompensas se daran cuando el usuario complete el puntaje requerido.
 La difusion de la pagina se realizara mediante redes sociales "Facebook", "Instagram" y "Twitter" por medio de capsulas (videos).
+
+### Definición del usuario:
+
+Hombres y mujeres de 18 a 50 años que viven en la zona metropolitana de Guadalajara o aledaños, con acceso a dispositivo electrónico con internet.
 
 ### ¿Cuál es la innovación?
 Ofrecer puntos y recompensas a los usuarios de la WebApp a manera de incentivar sus visitas al centro de guadalajara y generando “check in”.
