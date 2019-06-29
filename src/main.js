@@ -40,7 +40,14 @@ const goToCheckIn = () => {
 const checkIn = document.getElementById("checkIn");
 checkIn.addEventListener("click", goToCheckIn);
 
+/*const goToCheckIn = () => {
+  welcomePage.style.display = "none";
+  checkInPage.style.display = "block";
+};
+const checkIn = document.getElementById("checkIn");
+checkIn.addEventListener("click", goToCheckIn);
 
+*/
 
 
 
