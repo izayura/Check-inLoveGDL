@@ -1,3 +1,8 @@
+const uName = document.getElementById('nombreUsuario');
+const pass = document.getElementById('password');
+
+
+
 const goToRegistry = () => {
   homePage.style.display = "none";
   profilePage.style.display = "none";
