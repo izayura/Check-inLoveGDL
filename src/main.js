@@ -45,6 +45,23 @@ const goToCheckIn = () => {
 const checkIn = document.getElementById("checkIn");
 checkIn.addEventListener("click", goToCheckIn);
 
+const geoLog = document.getElementById('geoLocal');
+
+geoLog.addEventListener("click",() => {
+
+  navigator.geolocation.getCurrentPosition(viewMap,ViewError,{timeout:1000});
+
+  var lon = position.coords.longitude;	//guardamos la longitud
+	var lat = position.coords.latitude;		//guardamos la latitud
+
+	var link = "http://maps.google.com/?ll="+lat+","+lon+"&z=14";
+	document.getElementById("long").innerHTML = "Longitud: "+lon;
+	document.getElementById("latitud").innerHTML = "Latitud: "+lat;
+
+	document.getElementById("link").href = link;
+
+});
+
 /*const goToCheckIn = () => {
   welcomePage.style.display = "none";
   checkInPage.style.display = "block";
