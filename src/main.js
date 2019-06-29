@@ -18,7 +18,11 @@ const goToWelcome = () => {
   homePage.style.display = "none";
   signInPage.style.display = "none";
   welcomePage.style.display = "block";
+  let name=document.getElementById("nombreUsuario").value;
+  document.addEventListener("userName").innerHTML="Bienvenido "
++ name;
 };
+
 const logIn = document.getElementById("logIn");
 logIn.addEventListener("click", goToWelcome);
 const register = document.getElementById("register");

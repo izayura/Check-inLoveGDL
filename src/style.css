@@ -1,7 +1,8 @@
 body {
   background-image: url("https://i.ibb.co/4sv3DzH/fondo-checkin.jpg");
   background-size: cover;
-  margin-bottom: 1rem;
+  font-family: Roboto;
+  font-weight:bold;
   text-align: center;
   width: 100%;
 }
@@ -14,41 +15,53 @@ body {
     color: white;
     text-align: center;
     display: inline-block;
-    font-size: 1.25em;
-    margin: 20px;
-    padding: 10px 0px;
+    font-size: 1em;
+    font-weight:bold;
+    margin: 10px;
+    padding: 5px 0px;
     width: 200px;
     cursor: pointer;
     text-decoration: none;
     box-shadow: 0px 3px 0px;
-    margin-bottom: 2rem;
-    font-family: georgia, 'Times New Roman', Times, serif;
-    border-radius: 20px;
+    margin-bottom: 1rem;
+    font-family: Roboto;
+    border-radius: 10px;
 }
 
-h1  , #registro, #bienvenido {
-  color: #FF069B
+h1 {
+  color: #FF069B;
+  font-style: normal;
+  font-weight:bold;
+  font-size: 50px;
+  text-align: center;
 }
-
+ #registro, #bienvenido{
+   color: #05D505;
+   font-style: normal;
+   font-weight:bold;
+   font-size: 25px;
+   text-align: center;
+ }
 .textBox{
   background-color: #C4C4C4;
   color: white;
   text-align: center;
   display: inline-block;
-  font-size: 1.25em;
-  margin: 20px;
-  padding: 10px 0px;
+  font-size: 1em;
+  margin: 10px;
+  padding: 5px 0px;
   width: 200px;
   cursor: pointer;
   text-decoration: none;
   box-shadow: 0px 3px 0px;
-  margin-bottom: 2rem;
-  font-family: georgia, 'Times New Roman', Times, serif;
-  border-radius: 20px;
+  margin-bottom: 1rem;
+  font-family: Roboto;
+  font-weight:bold;
+  border-radius: 10px;
 
 }
 
-#register, #logIn  {
+#register, #logIn, #profile, #poll {
   background-color: #05D505;
 
 }
@@ -57,11 +70,11 @@ h1  , #registro, #bienvenido {
   background-color:  #FF069B;
 }
 
-#guest {
+#guest, #agend, #modifyData {
   background-color: #FF6A06;
 }
 
-#signIn{
+#signIn, #checkIn, #forum, #mailbox{
   background-color: #08B5FF;
 }
 
