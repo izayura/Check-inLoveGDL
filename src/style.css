@@ -9,3 +9,74 @@ body {
 .page{
   display: none;
 }
+
+.btn{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 20px;
+    padding: 10px 0px;
+    width: 200px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px;
+    margin-bottom: 2rem;
+    font-family: georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
+
+h1  , #registro, #bienvenido {
+  color: #FF069B
+}
+
+.textBox{
+  background-color: #C4C4C4;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.25em;
+  margin: 20px;
+  padding: 10px 0px;
+  width: 200px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0px 3px 0px;
+  margin-bottom: 2rem;
+  font-family: georgia, 'Times New Roman', Times, serif;
+  border-radius: 20px;
+
+}
+
+#register, #logIn  {
+  background-color: #05D505;
+
+}
+
+#  {
+  background-color:  #FF069B;
+}
+
+#guest {
+  background-color: #FF6A06;
+}
+
+#signIn{
+  background-color: #08B5FF;
+}
+
+
+
+
+
+
+background-color: #08B5FF; (TONO AZUL)
+background-color: #FF069B; (TONO ROSA)
+background-color: #FF6A06; (TONO NARANJA)
+background-color: #05D505; (TONO VERDE)
+
+ROSA
+VERDE
+GRIS
+NARANJA
+AZUL
