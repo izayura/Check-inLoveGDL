@@ -8,9 +8,9 @@ const goToRegistry = () => {
   profilePage.style.display = "none";
   signInPage.style.display = "block";
 };
-const signIn = document.getElementById("signIn");
+let signIn = document.getElementById("signIn");
 signIn.addEventListener("click", goToRegistry);
-const modifyData = document.getElementById("modifyData");
+let modifyData = document.getElementById("modifyData");
 modifyData.addEventListener("click", goToRegistry);
 
 
@@ -18,9 +18,9 @@ const goToWelcome = () => {
   homePage.style.display = "none";
   signInPage.style.display = "none";
   welcomePage.style.display = "block";
-  let name=document.getElementById("nombreUsuario").value;
+  uName.value;
   document.addEventListener("userName").innerHTML="Bienvenido "
-+ name;
++ uName;
 };
 
 const logIn = document.getElementById("logIn");
@@ -46,7 +46,7 @@ const goToCheckIn = () => {
   welcomePage.style.display = "none";
   checkInPage.style.display = "block";
 };
-const checkIn = document.getElementById("checkIn");
+/*const checkIn = document.getElementById("checkIn");
 checkIn.addEventListener("click", goToCheckIn);
 
 const geoLog = document.getElementById('geoLocal');
