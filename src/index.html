@@ -1,21 +1,21 @@
 
 <!DOCTYPE html>
 <html lang="es">
-   <head>
+   <header>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title> CHECK-INLOVE GDL </title>
+      <title id= "title"> CHECK-INLOVE GDL </title>
       <link rel="stylesheet" href="style.css" />
-   </head>
+   </header>
    <body>
      <center>
      <!--pagina 1 -->
       <section id= "homePage" class= "homePage" >
          <h1> CHECK-INLOVE GDL </h1>
-         <p> BIENVENIDO </p>
+         <p id = "bienvenido"> BIENVENIDO </p>
 
-         <input id= "nombreUsuario" type= "text" placeholder="Ingresa tu nombre de usuario"> </br>
-         <input id= "password" type= "password" placeholder="Ingresa tu contraseña"> </br>
+         <input class= "textBox" id= "nombreUsuario" type= "text" placeholder="Ingresa nombre de usuario">
+         <input class= "textBox" id= "password" type= "password" placeholder="Ingresa tu contraseña"> </br>
 
          <button id = "logIn" type="button"   class= "btn">INGRESAR</button> </br>
          <button id = "guest" type="button"   class= "btn">INVITADO </button> </br>
@@ -24,14 +24,14 @@
 
     <!--pagina 1.1 -->
       <section id= "signInPage" class= "page">
-        REGISTRO
+        <label id= "registro"> REGISTRO</br> </label>
 
-        <input id= "name" type="text" placeholder="Nombre y Apellido"> </br>
-        <input id= "mail" type="text" placeholder="Ingresa tu correo"></br>
-        <input id= "phoneNumber" type="text" placeholder="Ingresa tu celular"></br>
-        <input id= "createPassword" type="password" placeholder="Ingresa tu contraseña"></br>
-        <input id= "confirmPassword" type="password" placeholder="Confirma tu contraseña"></br>
-        <button id = "register" type="button"   class= "btn">CREAR USUARIO</button>
+        <input class= "textBox" id= "name" type="text" placeholder="Nombre y Apellido"> </br>
+        <input class= "textBox" id= "mail" type="text" placeholder="Ingresa tu correo"></br>
+        <input class= "textBox" id= "phoneNumber" type="text" placeholder="Ingresa tu celular"></br>
+        <input class= "textBox" id= "createPassword" type="password" placeholder="Ingresa tu contraseña"></br>
+        <input class= "textBox" id= "confirmPassword" type="password" placeholder="Confirma tu contraseña"></br>
+        <button id = "register" type="button"   class= "btn">ACEPTAR</button>
       </section>
 
      <!--pagina 2 -->
@@ -40,12 +40,14 @@
         <label id= "userName"></label>
         <button id = "profile" type="button"   class= "btn">MI PERFIL</button> </br>
         <button id = "checkIn" type="button"   class= "btn">HAZ CHECK-IN</button>
-        <button id = "agend" type="button"   class= "btn">AGENDA</button>
+        <a title= "agend" href= "https://pchistorico.gob.mx/"><button id = "agend" atl= "agend" type="button"   class= "btn">AGENDA</button>
         <label id = "points"></label></br>
         <container id = "mapImage"><a title= "mapa" href= "http://mapa.guadalajara.gob.mx/geomap"> <img src = "https://slack-imgs.com/?c=1&url=https%3A%2F%2Fmapa.guadalajara.gob.mx%2Fassets%2Fimages%2Flanding%2Fmapagdl_landing.png"
-          atl = "mapa"></a></container></br>
-        <button id = "poll" type="button"   class= "btn">ENCUESTAS</button>
-        <button id = "forum" type="button"   class= "btn">FORO</button>
+          atl = "mapa"></a></container>
+        <container id = "video"><a title= "video" href= "https://youtu.be/lg7Pk8TN2sA"> <img src = "https://files.slack.com/files-pri/T0NNB6T0R-FL28Y1UR4/youtube.jpg"
+          atl = "video"></a></container>
+        <a title= "poll" href= "https://forms.gle/JL4ymiMtiG3L6YPQ9"><button id = "poll" type="button" atl= "poll"  class= "btn">ENCUESTAS</button>
+        <a title= "mailbox" href= "https://forms.gle/YFJgt9uLM5UKjMM66"><button id = "mailbox" type="button" atl= "mailbox"   class= "btn">BUZON CIUDADANO</button>
       </section>
 
       <!--pagina 3-->
