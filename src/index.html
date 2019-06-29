@@ -11,48 +11,40 @@
      <center>
      <!--pagina 1 -->
       <section id= "homePage" class= "homePage" >
-         <h1> CHECK-INLOVE GDL </h1>
+         <h1 id=principalName> Check-inLove GDL </h1>
          <p id = "bienvenido"> BIENVENIDO </p>
-
-         <input class= "textBox" id= "nombreUsuario" type= "text" placeholder="Ingresa nombre de usuario">
-         <input class= "textBox" id= "password" type= "password" placeholder="Ingresa tu contraseña"> </br>
-
-         <button id = "logIn" type="button"   class= "btn">INGRESAR</button> </br>
-         <button id = "guest" type="button"   class= "btn">INVITADO </button> </br>
-         <button id = "signIn" type="button"   class= "btn">REGÍSTRATE</button>
+         <input class= "textBox" id= "nombreUsuario" type= "text" placeholder="Usuario">
+         <input class= "textBox" id= "password" type= "password" placeholder="Contraseña"> <br>
+         <button id = "logIn" type="button" class= "btn">ENTRAR</button> <br>
+         <button id = "signIn" type="button" class= "btn">CREAR USUARIO</button><br>
+         <button id = "guest" type="button" class= "btn">ENTRAR COMO INVITADO</button> <br>
       </section>
-
     <!--pagina 1.1 -->
       <section id= "signInPage" class= "page">
         <label id= "registro"> REGISTRO</br> </label>
-
-        <input class= "textBox" id= "name" type="text" placeholder="Nombre y Apellido"> </br>
-        <input class= "textBox" id= "mail" type="text" placeholder="Ingresa tu correo"></br>
-        <input class= "textBox" id= "phoneNumber" type="text" placeholder="Ingresa tu celular"></br>
-        <input class= "textBox" id= "createPassword" type="password" placeholder="Ingresa tu contraseña"></br>
-        <input class= "textBox" id= "confirmPassword" type="password" placeholder="Confirma tu contraseña"></br>
-        <button id = "register" type="button"   class= "btn">ACEPTAR</button>
+        <input class= "textBox" id= "name" type="text" placeholder="Nombre y Apellido"> <br>
+        <input class= "textBox" id= "mail" type="text" placeholder="Ingresa tu correo"><br>
+        <input class= "textBox" id= "phoneNumber" type="text" placeholder="Ingresa tu celular"><br>
+        <input class= "textBox" id= "createPassword" type="password" placeholder="Ingresa tu contraseña"><br>
+        <input class= "textBox" id= "confirmPassword" type="password" placeholder="Confirma tu contraseña"><br>
+        <button id = "register" type="button" class= "btn">ACEPTAR</button>
       </section>
-
      <!--pagina 2 -->
       <section id= "welcomePage" class= "page">
-        WELCOME
-        <label id= "userName"></label>
-        <button id = "profile" type="button"   class= "btn">MI PERFIL</button> </br>
-        <button id = "checkIn" type="button"   class= "btn">HAZ CHECK-IN</button>
+        <h1 id= "userName"></h1>
+        <button id = "profile" type="button" class= "btn">MI PERFIL</button> </br>
+        <button id = "checkIn" type="button" class= "btn">HAZ CHECK-IN</button>
         <a title= "agend" href= "https://pchistorico.gob.mx/"><button id = "agend" atl= "agend" type="button"   class= "btn">AGENDA</button>
-        <label id = "points"></label></br>
-        <container id = "mapImage"><a title= "mapa" href= "http://mapa.guadalajara.gob.mx/geomap"> <img src = "https://slack-imgs.com/?c=1&url=https%3A%2F%2Fmapa.guadalajara.gob.mx%2Fassets%2Fimages%2Flanding%2Fmapagdl_landing.png"
-          atl = "mapa"></a></container>
-        <container id = "video"><a title= "video" href= "https://youtu.be/lg7Pk8TN2sA"> <img src = "https://files.slack.com/files-pri/T0NNB6T0R-FL28Y1UR4/youtube.jpg"
-          atl = "video"></a></container>
+        <!--<label id = "points"></label></br>-->
+        <div id = "video"><a title= "video" href= "https://youtu.be/lg7Pk8TN2sA"> <img   style= width:250px;margin:10px;text-align:right;padding:10px; src = "https://files.slack.com/files-pri/T0NNB6T0R-FL28Y1UR4/youtube.jpg"></a></div>
+        <div id = "mapImage"><a title= "mapa" href= "http://mapa.guadalajara.gob.mx/geomap"> <img style= width:250px;margin:10px;text-align:left;padding:10px; src = "https://slack-imgs.com/?c=1&url=https%3A%2F%2Fmapa.guadalajara.gob.mx%2Fassets%2Fimages%2Flanding%2Fmapagdl_landing.png"></a></div>
         <a title= "poll" href= "https://forms.gle/JL4ymiMtiG3L6YPQ9"><button id = "poll" type="button" atl= "poll"  class= "btn">ENCUESTAS</button>
-        <a title= "mailbox" href= "https://forms.gle/YFJgt9uLM5UKjMM66"><button id = "mailbox" type="button" atl= "mailbox"   class= "btn">BUZON CIUDADANO</button>
+        <a title= "mailbox" href= "https://forms.gle/YFJgt9uLM5UKjMM66"><button id = "mailbox" type="button" atl= "mailbox" class= "btn">BUZON CIUDADANO</button>
       </section>
 
       <!--pagina 3-->
        <section id= "checkInPage" class= "page">
-         <label id= "ubicación">Mi ubicación </br> ¿Dónde estoy?</label>
+         <label id= "ubicación">Mi ubicación <br> ¿Dónde estoy?</label>
          <select id= "places">
            <option value= "value1">RESTAURANTES</option>
            <option value= "value1">BARES</option>
@@ -68,8 +60,10 @@
            <option value= "value1">BAZARES</option>
          </select></br>
 
+         <input type="button" name="" value="Localizarme" id="geoLocal">
+
          <container id = "mapCheckIn"> <img src = ""></container></br>
-         <button id = "uploadPhoto" type="button"   class= "btn">SUBE TU FOTO</button>
+         <button id = "uploadPhoto" type="button" class= "btn">SUBE TU FOTO</button>
        </section>
 
        <section id= "uploadPictures" class = "page">
@@ -78,27 +72,21 @@
 
       <!--pagina 2 -->
       <section id= "guestWelcomePage" class= "page">
-        BIENVENIDO </br>
-        <button id = "agend" type="button"   class= "btn">AGENDA</button></br>
-        <container id = "mapImage"></container>
-        <button id = "poll" type="button"   class= "btn">ENCUESTAS</button>
-        <button id = "forum" type="button"   class= "btn">FORO</button>
+        BIENVENIDO <br>
+        <a title= "agend" href= "https://pchistorico.gob.mx/"><button id = "agend" type="button"   class= "btn">AGENDA</button></br>
+          <div id = "video"><a title= "video" href= "https://youtu.be/lg7Pk8TN2sA"> <img style= width:250px;margin:10px;text-align:right;padding:10px; src = "https://files.slack.com/files-pri/T0NNB6T0R-FL28Y1UR4/youtube.jpg"></a></div>
+          <div id = "mapImage"><a title= "mapa" href= "http://mapa.guadalajara.gob.mx/geomap"> <img style= width:250px;margin:10px;text-align:left;padding:10px; src = "https://slack-imgs.com/?c=1&url=https%3A%2F%2Fmapa.guadalajara.gob.mx%2Fassets%2Fimages%2Flanding%2Fmapagdl_landing.png"></a></div>
+        <a title= "poll" href= "https://forms.gle/JL4ymiMtiG3L6YPQ9"><button id = "poll" type="button"   class= "btn">ENCUESTAS</button>
+        <a title= "mailbox" href= "https://forms.gle/YFJgt9uLM5UKjMM66"><button id = "forum" type="button"   class= "btn">FORO</button>
       </section>
 
      <!--pagina  -->
       <section id= "profilePage" class= "page">
-        <label id= "profilePicture"></label>
-        <label id= "profileName">NOMBRE:</label></br>
-        <label id= "profileEmail">CORREO:</label></br>
-        <label id= "profilePhone">TELEFONO:</label></br>
-        <button id = "modifyData" type="button"   class= "btn">MODIFICAR MIS DATOS</button>
-        <button id = "changeProfilePicture" type="button"   class= "btn">CAMBIAR FOTO DE PERFIL</button>
-      </section>
-
-
-
-
-      <section>
+        <section class= "textBox" id= "profileName" type="text">Nombre y Apellido</section><br>
+        <section class= "textBox" id= "profileEmail" type="text">Correo</section><br>
+        <section class= "textBox" id= "profilePhone" type="text">Celular</section><br>
+        <section class= "textBox" id= "points" type="text">Tus puntos:123</section><br>
+        <button id = "modifyData" type="button"  class= "btn">MODIFICAR DATOS</button>
       </section>
     </center>
 

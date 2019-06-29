@@ -14,17 +14,17 @@
 - Karla Cecilia Viera Zamora
 
 ### ¿Cuál es la idea principal?
-Aumentar el interés y el indice de visitas al Centro Histórico por medio de una WebApp interactiva que proporcione información acerca de las actividades que se realizan ofreciendo a su vez un sistema de puntos y recompensas que gratifiquen al usuario y lo mantengan interesado y activo en la pagina.
+Analizamos la percepcion actual de los ciudadanos de Guadalajara con relacion al Centro Historico, la cual no favorece la economia de la zona, coincidimos en que es necesario promover el comercio y turismo por medio de una campaña basada en una Webapp interactiva que proporciona una agenda de eventos vinculados a un sistema de puntos y recompensas para aumentar el interes y el indice de visitas.  
 
 ### ¿Cuál es el Reto?
-Lograr que pese  a la problemática y percepción negativa del Centro Histórico (Basura, Inseguridad, Indigentes etc), se recuerde todo lo positivo y hermoso que tiene Guadalajara y lograr que las visitas de los ciudadanos rehabiliten la dinámica y el entorno positivo del Centro.
+Aumentar la percepcion positiva del Centro Historico de Guadalajara difundiendo las actividades, gastronomia, arquitectura e historia que nos enorgullecen e identifican como Tapatios y buscamos que las visitas de los ciudadanos rehabiliten el entorno.
 
 ### ¿Cómo se aprovechan las herramientas existentes y las nuevas tecnologías?
-Unificar la información que existe en diversos portales y hacerlo de fácil acceso permitiendo filtrar los sitios de interés con sus promociones correspondientes
+Unificar la información que existe en diversos portales y hacerlo de fácil acceso permitiendo filtrar los sitios de interés con sus promociones correspondientes.
 
 ### Definición del producto:
 ¿Que hace el producto exactamente?
-Es una aplicación web, (webapp) que interactuá con el usuario a través del navegador y la lógica basada en esa interacción, sirve para que el usuario pueda descubrir sitios de interés,  convocatorias a rallys, información precisa de eventos realizados en el centro histórico de Gdl, verificar la información del programa de recompensas, registro
+Es una aplicación web, (webapp) que interactuá con el usuario a través del navegador y la lógica basada en esa interacción, sirve para que el usuario pueda descubrir sitios de interés,  convocatorias a rallys, información precisa de eventos realizados en el centro histórico de Gdl, verificar la información del programa de recompensas, registro.
 
 ### Interfaz de usuario:
 * Ingreso por medio de usuario o visitante.
@@ -41,20 +41,22 @@ Es una aplicación web, (webapp) que interactuá con el usuario a través del na
 * Visualizar estadísticas de visitas.
 * Foro de sugerencias y encuestas de mejora.
 
-
 ### Descripción del producto:
-Por medio de una pagina web se proporcionara información relevante a los usuarios a través  de pequeñas capsulas (videos) acerca de los lugares turísticos del centro histórico de la ciudad de Guadalajara, como; bares, restaurantes, cines, teatros, eventos públicos y privados, museos, mercados, bazares, galerías, movimientos sociales, sitios artísticos y recorridos.
-Esto con la finalidad de que cada visita generada a alguno de los lugares registrados previamente vaya almacenando cada “check in” y almacenando puntos que los usuarios podrán canjear por descuentos o visitas gratuitas a cualquiera de los lugares registrados.
-A manera de hacerlo más dinámico se crearían diversas promociones en “check in” en diferentes sitios cada día.
+Por medio de una aplicación web, (webapp) se proporcionara información relevante a los usuarios a través  de pequeñas capsulas (videos) acerca de los lugares turísticos del centro histórico de Guadalajara, como; bares, restaurantes, cines, teatros, eventos públicos y privados, museos, mercados, bazares, galerías, movimientos sociales, sitios artísticos y recorridos.
+Motivaremos la creacion de eventos y rallies, ejemplo: Sabado 06 de Julio, visita 3 museos "Museo de Cera", "Museo Regional", "Museo de Periodismo y las Artes" y al cumplir los 3 "Check-in" obtendras 500 puntos.
+Esto con la finalidad de que cada visita generada a alguno de los lugares registrados previamente en la campaña vaya almacenando cada “check in” y acumulando puntos que los usuarios podrán canjear por descuentos o visitas gratuitas a cualquiera de los lugares registrados.
+A manera de hacerlo más dinámico se crearan diversas promociones en “check in” en diferentes sitios cada día.
 Se debe crear un usuario o cuenta para poder acumular los puntos antes mencionados. En caso contrario el usuario podrá ingresar como invitado para poder verificar todos los sitios de interès.
-El contenido estará dividido en categorías y se contará con una agenda previa.
-Los usuarios podrán subir fotografías en los lugares donde se haga “check in” y subirla a la plataforma, dicha acción también generará puntos.
+El sitio contara con una agenda de eventos.
+Los usuarios podrán hacer "check in" de los lugares dando clic al boton de geolocalizacion (herramienta de google que es de costo la cual el gobierno de GDL ya cuenta con ella, por lo que por el momento no podemos mostrar su funcionalidad), dicha acción también generará puntos canjeables por recompensas.
+La vinculacion de gobierno con los distintos comercios, organismos e instituciones (publicas o privadas), se hara por medio de un intercambio de recompensas por publicidad en nuestra webapp (incrementar popularidad de su sitio y visitas), las recompensas se daran cuando el usuario complete el puntaje requerido.
+La difusion de la pagina se realizara mediante redes sociales "Facebook", "Instagram" y "Twitter" por medio de capsulas (videos).
 
 ### ¿Cuál es la innovación?
-Ofrecer puntos y recompensas a los usuarios de la WebApp a manera de incentivar sus visitas al centro de guadalajara y generando “check in”
+Ofrecer puntos y recompensas a los usuarios de la WebApp a manera de incentivar sus visitas al centro de guadalajara y generando “check in”.
 
 ### ¿En qué se distingue de otras soluciones si es que las hay?
-Además del sistema de recompensas se aplica la creación de usuario para personalizar la interacción que se tendrá con la WebApp (filtros, visitas, actividades etc)
+Además del sistema de recompensas se aplica la creación de usuario para personalizar la interacción que se tendrá con la WebApp (filtros, visitas, actividades etc).
 
 ### ¿Qué mostrarán en el demo del prototipo funcional?
-Se plantea mostrar parte de la interfaz gráfica de usuario. Para la realización correcta de la WebApp necesitamos integrar
+Se muestra la interfaz gráfica de usuario. Para la realización correcta de la WebApp necesitamos integrar.
