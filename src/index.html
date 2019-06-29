@@ -7,8 +7,9 @@
       <link rel="stylesheet" href="style.css" />
    </head>
    <body>
+     <center>
      <!--pagina 1 -->
-      <section id= "homePage" class= "page" >
+      <section id= "homePage" class= "homePage" >
          <h1> CHECK-INLOVE GDL </h1>
          <p> BIENVENIDO </p>
 
@@ -17,22 +18,23 @@
 
          <button id = "logIn" type="button"   class= "btn">INGRESAR</button> </br>
          <button id = "guest" type="button"   class= "btn">INVITADO </button> </br>
-         <button id = "signIn" type="button"   class= "btn">REGISTRATE</button>
+         <button id = "signIn" type="button"   class= "btn">REGÍSTRATE</button>
       </section>
 
     <!--pagina 1.1 -->
-      <section id= "logInPage" class= "page">
+      <section id= "signInPage" class= "page">
 
         <input id= "name" type="text" placeholder="Nombre y Apellido"> </br>
         <input id= "mail" type="text" placeholder="Ingresa tu correo"></br>
+        <input id= "phoneNumber" type="text" placeholder="Ingresa tu celular"></br>
         <input id= "createPassword" type="password" placeholder="Ingresa tu contraseña"></br>
         <input id= "confirmPassword" type="password" placeholder="Confirma tu contraseña"></br>
-
         <button id = "register" type="button"   class= "btn">ENVIAR</button>
       </section>
 
      <!--pagina 2 -->
-      <section id= "welcomePage">
+      <section id= "welcomePage" class= "page">
+        WELCOME
         <label id= "userName"></label>
         <button id = "profile" type="button"   class= "btn">MI PERFIL</button> </br>
         <button id = "checkIn" type="button"   class= "btn">HAZ CHECK-IN</button>
@@ -41,9 +43,59 @@
         <container id = "mapImage"></container>
         <button id = "poll" type="button"   class= "btn">ENCUESTAS</button>
         <button id = "forum" type="button"   class= "btn">FORO</button>
-
-
       </section>
+
+      <!--pagina 3-->
+       <section id= "checkInPage" class= "page">
+         <label id= "ubicación">Mi ubicación </br> ¿Dónde estoy?</label>
+         <select id= "places">
+           <option value= "value1">RESTAURANTES</option>
+           <option value= "value1">BARES</option>
+           <option value= "value1">CANTINAS</option>
+           <option value= "value1">CAFÉS</option>
+           <option value= "value1">MUSEOS</option>
+           <option value= "value1">TEATROS</option>
+           <option value= "value1">CINES</option>
+           <option value= "value1">IGLESIAS</option>
+           <option value= "value1">PARQUES</option>
+           <option value= "value1">HOTELES</option>
+           <option value= "value1">MERCADOS</option>
+           <option value= "value1">BAZARES</option>
+         </select>
+
+         <container id = "mapCheckIn"></container>
+         <button id = "uploadPhoto" type="button"   class= "btn">SUBE TU FOTO</button>
+       </section>
+
+       <section id>
+       </section>
+
+
+      <!--pagina 2 -->
+      <section id= "guestWelcomePage" class= "page">
+        BIENVENIDO </br>
+        <button id = "agend" type="button"   class= "btn">AGENDA</button></br>
+        <container id = "mapImage"></container>
+        <button id = "poll" type="button"   class= "btn">ENCUESTAS</button>
+        <button id = "forum" type="button"   class= "btn">FORO</button>
+      </section>
+
+     <!--pagina  -->
+      <section id= "profilePage" class= "page">
+        <label id= "profilePicture"></label>
+        <label id= "">NOMBRE:</label></br>
+        <label id= "">CORREO:</label></br>
+        <label id= "">TELEFONO:</label></br>
+        <button id = "modifyData" type="button"   class= "btn">MODIFICAR MIS DATOS</button>
+        <button id = "changeProfilePicture" type="button"   class= "btn">CAMBIAR FOTO DE PERFIL</button>
+      </section>
+
+
+
+
+      <section>
+      </section>
+    </center>
 
       <script src="main.js"></script>
    </body>
