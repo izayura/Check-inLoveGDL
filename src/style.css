@@ -6,6 +6,21 @@ body {
   width: 100%;
 }
 
+#homePage {
+ background-repeat: no-repeat;
+ /*background-attachment: fixed;
+    background-size: cover;
+ position: absolute;
+ width: 1850px;
+ height: 701px;
+ left: 0px;
+ top: 619px;
+*/ background: url("https://files.slack.com/files-pri/T0NNB6T0R-FKNNJHG3D/fondo_colores.png");
+
+
+
+}
+
 .page{
   display: none;
 }
@@ -30,21 +45,15 @@ h1  , #registro, #bienvenido {
   color: #FF069B
 }
 
+
+
 .textBox{
   background-color: #C4C4C4;
-  color: white;
-  text-align: center;
-  display: inline-block;
-  font-size: 1.25em;
+  border-radius: 20px;
   margin: 20px;
   padding: 10px 0px;
   width: 200px;
-  cursor: pointer;
-  text-decoration: none;
-  box-shadow: 0px 3px 0px;
-  margin-bottom: 2rem;
-  font-family: georgia, 'Times New Roman', Times, serif;
-  border-radius: 20px;
+  color: white;
 
 }
 
