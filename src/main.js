@@ -19,8 +19,8 @@ const goToWelcome = () => {
   signInPage.style.display = "none";
   welcomePage.style.display = "block";
   uName.value;
-  document.getElementById("userName").innerHTML="Bienvenido "
-+ uName.value;
+  document.getElementById("userName").innerHTML = "Bienvenido "
+    + uName.value;
 };
 
 const logIn = document.getElementById("logIn");

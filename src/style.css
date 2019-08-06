@@ -1,3 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
 body {
  background-image: url("https://i.ibb.co/4sv3DzH/fondo-checkin.jpg");
  background-size: cover;
@@ -5,6 +14,10 @@ body {
  font-weight:bold;
  text-align: center;
  width: 100%;
+ position: center;
+ margin-bottom: 6rem;
+ line-height: 5rem;
+ margin-top: 3rem;
 }
 
 .page{
@@ -72,4 +85,19 @@ h1, .bienvenido {
 
 #signIn, #checkIn, #forum, #mailbox{
  background-color: #08B5FF;
+}
+
+.map {
+  width: 16rem;
+  margin:10px;
+  padding:10px;
+  position: relative;
+}
+
+.video {
+  width: 16rem;
+  height: 10rem;
+  margin:10px;
+  padding:10px;
+  position:relative;
 }
