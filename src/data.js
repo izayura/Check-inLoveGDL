@@ -40,3 +40,35 @@ let uiConfig = {
 };
 let ui = new firebaseui.auth.AuthUI(firebase.auth());
 ui.start("#authContainer", uiConfig);
+
+
+//Verifica si el usuario esta conectado y toma informacion sobre el
+firebase.auth().onAuthStateChanged(function(user) {
+  if (user) {
+    // User is signed in.
+    var displayName = user.displayName;
+    var email = user.email;
+    var emailVerified = user.emailVerified;
+    var photoURL = user.photoURL;
+    var isAnonymous = user.isAnonymous;
+    var uid = user.uid;
+    var providerData = user.providerData;
+    console.log("El usuario esta conectado");
+    console.log(email);
+    console.log(displayName);
+    document.getElementById("userName").innerHTML = "Bienvenido " + displayName;
+
+  } else {
+   console.log("El usuario NO esta conectado");
+  }
+});
+//cerrar sesion
+const logOut = () =>{
+  firebase.auth().signOut().then(function() {
+  console.log("el usuario se desconectó correctamente");
+}).catch(function(error) {
+console.log(error);
+});
+location.assign("index.html");
+};
+document.getElementById("logOut").addEventListener("click", logOut);

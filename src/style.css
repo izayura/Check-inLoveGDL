@@ -101,3 +101,9 @@ h1, .bienvenido {
   padding:10px;
   position:relative;
 }
+#logOut{
+  color: #05D505;
+  float: right;
+  font-weight:bold;
+  text-align: left;
+}
