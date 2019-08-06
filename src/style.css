@@ -7,7 +7,6 @@ body {
  width: 100%;
 }
 
-
 .page{
  display: none;
 }
@@ -29,7 +28,7 @@ body {
    border-radius: 10px;
 }
 
-h1 {
+h1, .bienvenido {
  color: #FF069B;
  font-style: normal;
  font-weight:bold;
