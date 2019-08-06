@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="title"> CHECK-INLOVE GDL </title>
+  <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
   <link rel="stylesheet" href="style.css" />
 </header>
 
@@ -17,6 +18,7 @@
     <button id="logIn" type="button" class="btn">ENTRAR</button>
     <button id="signIn" type="button" class="btn">CREAR USUARIO</button>
     <button id="guest" type="button" class="btn">ENTRAR COMO INVITADO</button>
+    <div id="authContainer"></div>
   </section>
   <!--pagina 1.1 -->
   <section id="signInPage" class="page">
@@ -28,27 +30,9 @@
     <input class="textBox" id="confirmPassword" type="password" placeholder="Confirma tu contraseña">
     <button id="register" type="button" class="btn">ACEPTAR</button>
   </section>
-  <!--pagina 2 -->
-  <section id="welcomePage" class="page">
-    <h1 id="userName" class="bienvenido"></h1>
-    <button id="profile" type="button" class="btn">MI PERFIL</button>
-    <button id="checkIn" type="button" class="btn">HAZ CHECK-IN</button>
-    <a title="agend" href="https://pchistorico.gob.mx/agenda/"><button id="agend" atl="agend" type="button"
-        class="btn">AGENDA</button></a>
-    <section class="center">
-      <iframe class="video" src="https://www.youtube.com/embed/lg7Pk8TN2sA" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <div id="mapImage"><a title="mapa" href="http://mapa.guadalajara.gob.mx/geomap">
-          <img class="map" src="https://mapa.guadalajara.gob.mx/assets/images/landing/mapagdl_landing.png"></a></div>
-    </section>
-    <a title="poll" href="https://forms.gle/JL4ymiMtiG3L6YPQ9"><button id="poll" type="button" atl="poll"
-        class="btn">ENCUESTAS</button></a>
-    <a title="mailbox" href="https://forms.gle/YFJgt9uLM5UKjMM66"><button id="mailbox" type="button" atl="mailbox"
-        class="btn">BUZÓN CIUDADANO</button></a>
-  </section>
-
+  
   <!--pagina 3-->
- <!-- <section id="checkInPage" class="page">
+  <section id="checkInPage" class="page">
     <label id="ubicación">Mi ubicación ¿Dónde estoy?</label>
     <select id="places">
       <option value="value1">RESTAURANTES</option>
@@ -63,7 +47,7 @@
       <option value="value1">HOTELES</option>
       <option value="value1">MERCADOS</option>
       <option value="value1">BAZARES</option>
-    </select>-->
+    </select>
 
     <input type="button" name="" value="Localizarme" id="geoLocal">
 
@@ -99,7 +83,11 @@
     <button id="modifyData" type="button" class="btn">MODIFICAR DATOS</button>
   </section>
 
+  <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-auth.js"></script>
+  <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
   <script src="main.js"></script>
+  <script src="data.js"></script>
 </body>
 
 </html>
