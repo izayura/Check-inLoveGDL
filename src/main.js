@@ -1,7 +1,53 @@
 const uName = document.getElementById("nombreUsuario");
 const pass = document.getElementById("password");
+const cUserName =document.getElementById("name");
+const cUserMail = document.getElementById("mail");
+const cUserPhone = document.getElementById("phoneNumber");
+const cUserPass = document.getElementById("createPassword");
+const cUserConPass = document.getElementById("confirmPassword");
+const btnCUser = document.getElementById("register");
+
+btnCUser.addEventListener("click", ()=>{
+
+let name =  cUserName.value;
+let mail = cUserMail.value;
+let phone = cUserPhone.value;
+let pass = cUserPass.value;
+let cpass = cUserConPass.value;
+
+createNewUser(mail,pass);
+
+
+})
+
+const createNewUser = (email,pass) =>{
+
+  firebase.auth().createUserWithEmailAndPassword(email,pass).
+  then(function (user){
+    console.log('¡Creamos al usuario!');
+    console.log(user);
+    const userId = firebase.auth().currentUser.uid;
+    goToWelcome();
+
+  }).catch(function(error) {
+    // Handle Errors here.
+    var errorCode = error.code;
+    var errorMessage = error.message;
+    // [START_EXCLUDE]
+    if (errorCode == 'auth/weak-password') {
+      alert('The password is too weak.');
+    } else {
+      alert(errorMessage);
+    }
+    console.log(error);
+    // [END_EXCLUDE]
+  })
+
+};
+
 
 const goToRegistry = () => {
+
   homePage.style.display = "none";
   profilePage.style.display = "none";
   signInPage.style.display = "block";
