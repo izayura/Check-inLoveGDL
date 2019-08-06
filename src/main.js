@@ -1,7 +1,5 @@
-const uName = document.getElementById('nombreUsuario');
-const pass = document.getElementById('password');
-
-
+const uName = document.getElementById("nombreUsuario");
+const pass = document.getElementById("password");
 
 const goToRegistry = () => {
   homePage.style.display = "none";
@@ -13,14 +11,12 @@ signIn.addEventListener("click", goToRegistry);
 let modifyData = document.getElementById("modifyData");
 modifyData.addEventListener("click", goToRegistry);
 
-
 const goToWelcome = () => {
   homePage.style.display = "none";
   signInPage.style.display = "none";
   welcomePage.style.display = "block";
   uName.value;
-  document.getElementById("userName").innerHTML = "Bienvenido "
-    + uName.value;
+  document.getElementById("userName").innerHTML = "Bienvenido " + uName.value;
 };
 
 const logIn = document.getElementById("logIn");
@@ -74,11 +70,6 @@ const checkIn = document.getElementById("checkIn");
 checkIn.addEventListener("click", goToCheckIn);
 
 */
-
-
-
-
-
 
 /*
 const goToEncode = () => {
